@@ -1,0 +1,323 @@
+
+
+Started GET "/" for ::1 at 2015-09-23 19:32:58 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (2.8ms)
+Completed 200 OK in 21ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2015-09-23 19:33:05 -0600
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (130.3ms)
+
+
+Started GET "/" for ::1 at 2015-09-23 19:34:16 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1138ms (Views: 1137.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 19:34:18 -0600
+
+
+Started GET "/assets/homepage.self-3d1b0e7e4c571c6883f70690f4a707e5c4fc0c06c418480fd98cae96ef20f8a9.js?body=1" for ::1 at 2015-09-23 19:34:18 -0600
+
+
+Started GET "/" for ::1 at 2015-09-23 20:02:27 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/homepage.self-d2b6f175ef350dd253de103f88125ecde1404cc7908595b961f4121746a7f646.js?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-23 20:02:27 -0600
+
+
+Started GET "/" for ::1 at 2015-09-23 20:06:07 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/homepage.self-d2b6f175ef350dd253de103f88125ecde1404cc7908595b961f4121746a7f646.js?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-23 20:06:07 -0600
+
+
+Started GET "/" for ::1 at 2015-09-23 22:08:54 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/homepage.self-d2b6f175ef350dd253de103f88125ecde1404cc7908595b961f4121746a7f646.js?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-09-23 22:08:54 -0600
+
+
+Started GET "/" for ::1 at 2015-09-24 12:30:26 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 177ms (Views: 169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-24 12:30:26 -0600
+
+
+Started GET "/assets/homepage.self-d2b6f175ef350dd253de103f88125ecde1404cc7908595b961f4121746a7f646.js?body=1" for ::1 at 2015-09-24 12:30:26 -0600
+
+
+Started GET "/" for ::1 at 2015-09-24 17:53:15 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 184ms (Views: 174.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for ::1 at 2015-09-24 22:20:41 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 293ms (Views: 275.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-b288693e0983594c10751589905251a8669b75039ada5bea38e71bfbc1b97c92.js?body=1" for ::1 at 2015-09-24 22:20:42 -0600
+
+
+Started GET "/assets/application.self-4bdd98adc58666e731a204b260059535af8227a48631fdc5702f7446566953ac.js?body=1" for ::1 at 2015-09-24 22:20:42 -0600
+
+
+Started GET "/" for ::1 at 2015-09-24 22:22:22 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/assets/homepage.self-b288693e0983594c10751589905251a8669b75039ada5bea38e71bfbc1b97c92.js?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/assets/application.self-4bdd98adc58666e731a204b260059535af8227a48631fdc5702f7446566953ac.js?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-09-24 22:22:22 -0600
+
+
+Started GET "/" for ::1 at 2015-09-24 22:27:53 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 284ms (Views: 267.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-24 22:28:21 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2015-09-24 22:28:26 -0600
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/var/rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.8ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.6ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.5ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (112.6ms)
+
+
+Started GET "/" for ::1 at 2015-09-24 22:49:53 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 214ms (Views: 197.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-24 22:51:52 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 598ms (Views: 597.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-24 22:52:41 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 224ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:02:12 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 484ms (Views: 476.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:02:49 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 240ms (Views: 239.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:02:56 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:03:20 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 228ms (Views: 227.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:04:08 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 226ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:05:10 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 236ms (Views: 235.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:06:14 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 236ms (Views: 235.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-09-25 00:07:48 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 220ms (Views: 219.3ms | ActiveRecord: 0.0ms)
